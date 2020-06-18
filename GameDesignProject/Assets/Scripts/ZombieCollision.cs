@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOnHit : MonoBehaviour
+public class ZombieCollision : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -18,15 +18,9 @@ public class DestroyOnHit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag != "Wall")
+        if (other.tag == "Player")
         {
-            Destroy(other.gameObject);
-            Destroy(this.gameObject);
+            GameController.instance.PlayerDied();
         }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-        
     }
 }

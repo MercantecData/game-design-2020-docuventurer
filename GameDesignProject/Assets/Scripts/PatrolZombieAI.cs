@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyAI : MonoBehaviour
+public class PatrolZombieAI : MonoBehaviour
 {
     private string currentState = "Patrol";
     private Transform nextWaypoint;

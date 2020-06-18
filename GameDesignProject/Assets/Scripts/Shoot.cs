@@ -21,7 +21,6 @@ public class Shoot : MonoBehaviour
 
             Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
             rigidbody.velocity = bullet.transform.up * 30;
-            GameController.instance.SetBullets(GameController.instance.bullets - 1);
 
             Destroy(bullet, 10);
         }
