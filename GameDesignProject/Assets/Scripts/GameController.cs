@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     public Text spawnCounterText;
     
     private int SpawnCount;
+    private bool gameDone = false;
 
     public void Awake()
     {
@@ -31,14 +32,24 @@ public class GameController : MonoBehaviour
 
         if (SpawnCount == 0)
         {
-            gameStatusText.text = "You Won";
-            gameStatusText.color = Color.green;
+            if (!gameDone)
+            {
+                gameDone = true;
+                gameStatusText.text = "You Won";
+                gameStatusText.color = Color.green;
+            }
+            
         }
     }
 
     public void PlayerDied()
     {
-        gameStatusText.text = "Game Over";
-        gameStatusText.color = Color.red;
+        if (!gameDone)
+        {
+            gameDone = true;
+            gameStatusText.text = "Game Over";
+            gameStatusText.color = Color.red;
+        }
+        
     }
 }

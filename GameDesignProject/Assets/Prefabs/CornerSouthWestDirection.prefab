@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 9203250976426146664}
   - component: {fileID: 1378898840810080273}
   - component: {fileID: 1689679784}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,9 +119,9 @@ GameObject:
   - component: {fileID: 5134896876577473710}
   - component: {fileID: 1265591417062543448}
   - component: {fileID: 1323575121}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,9 +227,9 @@ GameObject:
   - component: {fileID: 3410905946352300072}
   - component: {fileID: 4934270370877026592}
   - component: {fileID: 215725550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,9 +335,9 @@ GameObject:
   - component: {fileID: 567184480977369004}
   - component: {fileID: 8215563308093606024}
   - component: {fileID: 1082957184}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (24)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,9 +443,9 @@ GameObject:
   - component: {fileID: 3791996602021518852}
   - component: {fileID: 6089183757334844967}
   - component: {fileID: 1402266134}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (22)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,9 +551,9 @@ GameObject:
   - component: {fileID: 8055617840245801552}
   - component: {fileID: 18693444896344352}
   - component: {fileID: 229172895}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (23)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -659,9 +659,9 @@ GameObject:
   - component: {fileID: 5689329744840440632}
   - component: {fileID: 7824889335036801056}
   - component: {fileID: 247720315}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,9 +767,9 @@ GameObject:
   - component: {fileID: 282954539277141501}
   - component: {fileID: 704975386877164275}
   - component: {fileID: 595505447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (16)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -875,9 +875,9 @@ GameObject:
   - component: {fileID: 4001380208506413442}
   - component: {fileID: 7468680596691744221}
   - component: {fileID: 1674985063}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -983,9 +983,9 @@ GameObject:
   - component: {fileID: 5150001175295820153}
   - component: {fileID: 6781657146091988112}
   - component: {fileID: 1867420189}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (21)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1091,9 +1091,9 @@ GameObject:
   - component: {fileID: 6694735813628046476}
   - component: {fileID: 7974785120337161}
   - component: {fileID: 353540296}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1199,9 +1199,9 @@ GameObject:
   - component: {fileID: 6505135012385328696}
   - component: {fileID: 5705124913452807307}
   - component: {fileID: 294585258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (20)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1307,9 +1307,9 @@ GameObject:
   - component: {fileID: 7655212176779325277}
   - component: {fileID: 7711270549446936958}
   - component: {fileID: 2000327791}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (25)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1415,9 +1415,9 @@ GameObject:
   - component: {fileID: 5307533836345282583}
   - component: {fileID: 6271461566689385296}
   - component: {fileID: 1476650396}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1521,7 +1521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 451833307560169336}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CornerSouthWestDirection
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1536,7 +1536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4427377999688845536}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 22.56, y: 53.19297, z: 79.669304}
+  m_LocalPosition: {x: 22.56, y: 53.19297, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3410905946352300072}
@@ -1576,9 +1576,9 @@ GameObject:
   - component: {fileID: 3713642307481986888}
   - component: {fileID: 3915679903303151591}
   - component: {fileID: 398955085}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1684,9 +1684,9 @@ GameObject:
   - component: {fileID: 3974708268878265516}
   - component: {fileID: 6199887773751683011}
   - component: {fileID: 998733776}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1792,9 +1792,9 @@ GameObject:
   - component: {fileID: 3944276408056464821}
   - component: {fileID: 559312983571389927}
   - component: {fileID: 73823031}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1900,9 +1900,9 @@ GameObject:
   - component: {fileID: 353218065649628654}
   - component: {fileID: 849438428890952538}
   - component: {fileID: 1400669026}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2008,9 +2008,9 @@ GameObject:
   - component: {fileID: 5846674466349165820}
   - component: {fileID: 6730861801124498830}
   - component: {fileID: 1361446577}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2116,9 +2116,9 @@ GameObject:
   - component: {fileID: 3272697308883920631}
   - component: {fileID: 5460569399131519931}
   - component: {fileID: 263279588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2224,9 +2224,9 @@ GameObject:
   - component: {fileID: 4829154682635608558}
   - component: {fileID: 8896727192701470191}
   - component: {fileID: 717782525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2332,9 +2332,9 @@ GameObject:
   - component: {fileID: 1128904207900697022}
   - component: {fileID: 3232968305713955962}
   - component: {fileID: 552563274}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2440,9 +2440,9 @@ GameObject:
   - component: {fileID: 2638986137801414389}
   - component: {fileID: 3288564398182627783}
   - component: {fileID: 307021264}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

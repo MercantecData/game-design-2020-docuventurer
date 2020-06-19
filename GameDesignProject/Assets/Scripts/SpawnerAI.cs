@@ -5,8 +5,12 @@ using UnityEngine;
 public class SpawnerAI : MonoBehaviour
 {
     public GameObject Zombie;
-    public float startSpawnTime = 10;
-    public float spawnRepeatRate = 5;
+
+    [SerializeField]
+    private GameObject player;
+    public float startSpawnTime = 1;
+    public float spawnRepeatRate = 1;
+    public float range = 50;
 
     void Start()
     {
@@ -20,8 +24,13 @@ public class SpawnerAI : MonoBehaviour
 
     void SpawnZombie()
     {
-        GameObject newZombie = Instantiate(Zombie);
+        if (Vector2.Distance(player.transform.position, transform.position) < range)
+        {
+            GameObject newZombie = Instantiate(Zombie);
 
-        newZombie.transform.position = transform.position;
+            newZombie.transform.position = transform.position;
+        }
+
+        
     }
 }
