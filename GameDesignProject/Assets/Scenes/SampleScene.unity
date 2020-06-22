@@ -342,11 +342,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &64131488 stripped
@@ -1768,11 +1783,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &624779572 stripped
@@ -2307,11 +2337,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &784972123 stripped
@@ -3587,11 +3632,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &871166695 stripped
@@ -4004,11 +4064,26 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!1001 &1045948415
@@ -4078,11 +4153,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1045948416 stripped
@@ -4398,11 +4488,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1320954562 stripped
@@ -4484,11 +4589,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1330431790 stripped
@@ -4620,11 +4740,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1402595032 stripped
@@ -5500,11 +5635,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1601497438 stripped
@@ -5598,11 +5748,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1611761241 stripped
@@ -6441,11 +6606,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1988085234 stripped
@@ -6521,11 +6701,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &2102807155 stripped
@@ -6760,6 +6955,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: Zombie
@@ -6771,6 +6976,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!1001 &2145894374
@@ -8363,11 +8573,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombieSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989261106078858273, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1602014746}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &3746390047934118046 stripped
