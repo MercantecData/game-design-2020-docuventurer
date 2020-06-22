@@ -10,7 +10,7 @@ public class SpawnerAI : MonoBehaviour
     private GameObject player;
     public float startSpawnTime = 1;
     public float spawnRepeatRate = 2;
-    public float range = 30;
+    public float range = 25;
 
     public HealthBar healthBar;
 

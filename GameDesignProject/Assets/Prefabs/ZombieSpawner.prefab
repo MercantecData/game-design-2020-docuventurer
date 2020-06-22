@@ -120,7 +120,7 @@ MonoBehaviour:
   player: {fileID: 1321128495825691563, guid: d88903733cb183e4894730f16d5f85aa, type: 3}
   startSpawnTime: 3
   spawnRepeatRate: 2
-  range: 5
+  range: 25
   healthBar: {fileID: 6516821962911728270}
 --- !u!61 &3905001509294697125
 BoxCollider2D:
