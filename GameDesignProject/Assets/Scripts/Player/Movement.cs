@@ -24,6 +24,18 @@ public class Movement : MonoBehaviour
     }
 
     // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftShift)) //Hold venstre shift nede
+        {
+            movementSpeed = 13.5f;
+        }
+        else
+        {
+            movementSpeed = 7.5f;
+        }
+    }
+
     void FixedUpdate()
     {
         Vector2 position = transform.position;
@@ -39,13 +51,21 @@ public class Movement : MonoBehaviour
 
     void SetAnimationState()
     {
-        if (Mathf.Abs(dirX) > 2 || Mathf.Abs(dirY) > 2)
+        
+        if (Mathf.Abs(dirX) > 10 || Mathf.Abs(dirY) > 10)
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", true);
+        }
+        else if(Mathf.Abs(dirX) > 2 || Mathf.Abs(dirY) > 2)
         {
             animator.SetBool("isWalking", true);
+            animator.SetBool("isRunning", false);
         }
         else
         {
             animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", false);
         }
     }
 }

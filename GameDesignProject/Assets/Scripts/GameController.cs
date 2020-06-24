@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
@@ -12,8 +13,9 @@ public class GameController : MonoBehaviour
     public Text spawnCounterText;
     public Text playerLivesText;
 
-    [SerializeField]
     private GameObject player;
+
+    private Vector3 startPosition;
 
     private int playerLives = 3;
     
@@ -30,6 +32,14 @@ public class GameController : MonoBehaviour
         instance.SpawnCount = SpawnCollection.transform.childCount;
         spawnCounterText.text = "Spawners left: " + SpawnCount;
         playerLivesText.text = "Lives: " + playerLives;
+
+        DontDestroyOnLoad(this.gameObject);//behold gamecontroller når scene er færdig
+    }
+
+    public void SetupPlayer(GameObject playerSpawn)
+    {
+        player = playerSpawn;
+        startPosition = playerSpawn.transform.position;
     }
 
     public void SpawnerDied()
@@ -42,8 +52,9 @@ public class GameController : MonoBehaviour
             if (!gameDone)
             {
                 gameDone = true;
-                gameStatusText.text = "You Won";
-                gameStatusText.color = Color.green;
+                //gameStatusText.text = "You Won";
+                //gameStatusText.color = Color.green;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             
         }
@@ -58,8 +69,8 @@ public class GameController : MonoBehaviour
 
             if (playerLives > 0)
             {
-                player.transform.position = new Vector3(-6.38f, 2.86f, 0);
-                player.transform.GetChild(0).gameObject.transform.position = new Vector3(-6.38f, 2.86f, 0);
+                player.transform.position = startPosition;
+                player.transform.GetChild(0).gameObject.transform.position = new Vector3(0f + startPosition.x, 0f + startPosition.y, 1f);
                 return;
             }
             player.SetActive(false);
