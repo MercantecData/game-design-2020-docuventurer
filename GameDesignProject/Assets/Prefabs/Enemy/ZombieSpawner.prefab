@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3905001509294697125}
   m_Layer: 0
   m_Name: ZombieSpawner
-  m_TagString: Untagged
+  m_TagString: ZombieSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Zombie: {fileID: 5894256667622807686, guid: 55a95e534e3c03f41a893942199c6e94, type: 3}
-  player: {fileID: 1321128495825691563, guid: d88903733cb183e4894730f16d5f85aa, type: 3}
+  player: {fileID: 0}
   startSpawnTime: 3
   spawnRepeatRate: 2
   range: 25

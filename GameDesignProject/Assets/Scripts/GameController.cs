@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,13 +8,12 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
-    public GameObject SpawnCollection;
-    public GameObject canvas;
-    public Text gameStatusText;
-    public Text spawnCounterText;
-    public Text playerLivesText;
+    private Text spawnCounterText;
+    private Text playerLivesText;
 
-    private GameObject player;
+    private GameObject playerSpawn;
+    private GameObject gameOverScreen;
+    private GameObject levelWonScreen;
 
     private Vector3 startPosition;
 
@@ -29,18 +29,44 @@ public class GameController : MonoBehaviour
 
     public void Start()
     {
-        instance.SpawnCount = SpawnCollection.transform.childCount;
-        spawnCounterText.text = "Spawners left: " + SpawnCount;
-        playerLivesText.text = "Lives: " + playerLives;
-
         DontDestroyOnLoad(this.gameObject);//behold gamecontroller når scene er færdig
+    }
+
+    #region Scene setup
+
+    public void HideGameOverScreen(GameObject gameOverScreen)
+    {
+        instance.gameOverScreen = gameOverScreen;
+        instance.gameOverScreen.SetActive(false);
+    }
+
+    public void HideLevelWonScreen(GameObject levelWonScreen)
+    {
+        instance.levelWonScreen = levelWonScreen;
+        instance.levelWonScreen.SetActive(false);
+    }
+
+    public void SetupSpawnCounter(GameObject spawnCounter)
+    {
+        instance.SpawnCount = GameObject.FindGameObjectsWithTag("ZombieSpawner").Count();
+
+        spawnCounterText = spawnCounter.GetComponent<Text>();
+        spawnCounterText.text = "Spawners left: " + SpawnCount;
+    }
+
+    public void SetupPlayerLives(GameObject playerLives)
+    {
+        playerLivesText = playerLives.GetComponent<Text>();
+        playerLivesText.text = "Lives: " + instance.playerLives;
     }
 
     public void SetupPlayer(GameObject playerSpawn)
     {
-        player = playerSpawn;
+        instance.playerSpawn = playerSpawn;
         startPosition = playerSpawn.transform.position;
     }
+
+    #endregion
 
     public void SpawnerDied()
     {
@@ -49,14 +75,7 @@ public class GameController : MonoBehaviour
 
         if (SpawnCount == 0)
         {
-            if (!gameDone)
-            {
-                gameDone = true;
-                //gameStatusText.text = "You Won";
-                //gameStatusText.color = Color.green;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
-            
+            instance.levelWonScreen.SetActive(true);
         }
     }
 
@@ -69,14 +88,13 @@ public class GameController : MonoBehaviour
 
             if (playerLives > 0)
             {
-                player.transform.position = startPosition;
-                player.transform.GetChild(0).gameObject.transform.position = new Vector3(0f + startPosition.x, 0f + startPosition.y, 1f);
+                playerSpawn.transform.position = startPosition;
+                playerSpawn.transform.GetChild(0).gameObject.transform.position = new Vector3(0f + startPosition.x, 0f + startPosition.y, 1f);
                 return;
             }
-            player.SetActive(false);
+            playerSpawn.SetActive(false);
             gameDone = true;
-            gameStatusText.text = "Game Over";
-            gameStatusText.color = Color.red;
+            instance.gameOverScreen.SetActive(true);
         }
         
     }
