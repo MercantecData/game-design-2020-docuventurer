@@ -5,12 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
-    public static SceneHandler instance;
-    void Awake()
-    {
-        instance = this;
-    }
-
     public void NextScene()
     {
         //SceneManager.LoadScene("Level 2"); //En måde

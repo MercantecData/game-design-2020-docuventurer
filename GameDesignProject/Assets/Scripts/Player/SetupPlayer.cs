@@ -8,9 +8,6 @@ public class SetupPlayer : MonoBehaviour
     void Start()
     {
         GameController.instance.SetupPlayer(gameObject);
-        print(transform.position.x);
-        print(transform.position.y);
-        print(transform.position.z);
     }
 
     // Update is called once per frame
