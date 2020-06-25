@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &14818345 stripped
@@ -368,6 +373,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &97547368 stripped
@@ -724,6 +734,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &850214059 stripped
@@ -814,6 +829,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &882037565 stripped
@@ -904,6 +924,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &956664076 stripped
@@ -1205,6 +1230,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1272743884 stripped
@@ -1295,6 +1325,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1444744331 stripped
@@ -1385,6 +1420,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1517301843 stripped
@@ -1541,6 +1581,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1701654865 stripped
@@ -1631,6 +1676,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1715292306 stripped
@@ -1721,6 +1771,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1794963434 stripped
@@ -1811,6 +1866,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &1796531578 stripped
@@ -2095,6 +2155,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &2030842444 stripped
@@ -2260,6 +2325,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &2068053756 stripped
@@ -2350,6 +2420,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8236527166584915476, guid: 7ab27372ba72e7f439c2adce648f37b3,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658972437474605375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab27372ba72e7f439c2adce648f37b3, type: 3}
 --- !u!4 &2142397278 stripped

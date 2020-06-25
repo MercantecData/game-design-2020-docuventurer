@@ -66,6 +66,13 @@ public class GameController : MonoBehaviour
         startPosition = playerSpawn.transform.position;
     }
 
+    public void LevelRetrySetup()
+    {
+        instance.playerLives = 3;
+        playerLivesText.text = "Lives: " + instance.playerLives;
+        gameDone = false;
+    }
+
     #endregion
 
     public void SpawnerDied()
