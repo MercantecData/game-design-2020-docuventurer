@@ -152,6 +152,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  mask:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!114 &-5466236241136535132
 MonoBehaviour:
   m_ObjectHideFlags: 0

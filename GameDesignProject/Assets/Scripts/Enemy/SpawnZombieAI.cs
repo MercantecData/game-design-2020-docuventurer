@@ -9,6 +9,7 @@ public class SpawnZombieAI : MonoBehaviour
     private GameObject Player;
 
     public float speed = 5;
+    public LayerMask mask;
 
     // Start is called before the first frame update
     void Start()
@@ -19,12 +20,18 @@ public class SpawnZombieAI : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        var linecast = Physics2D.Linecast(transform.position, Player.transform.position, mask);
 
-        Vector2 attackPlayerPosition = Vector2.MoveTowards(transform.position, Player.transform.position, Time.deltaTime * speed);
+        if (linecast == false)
+        {
+            Vector2 attackPlayerPosition = Vector2.MoveTowards(transform.position, Player.transform.position, Time.deltaTime * speed);
 
-        transform.position = attackPlayerPosition;
+            transform.position = attackPlayerPosition;
 
-        currentTarget = Player.transform.position - transform.position;
-        transform.right = currentTarget;
+            currentTarget = Player.transform.position - transform.position;
+            transform.right = currentTarget;
+        }
+
+        
     }
 }
